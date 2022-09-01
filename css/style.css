@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #151320;
+}
+
+.circulo {
+  width:200px;
+  height:200px;
+  background-color: red;
+  border-radius: 50%;
+  position :absolute;bottom: 600px;
+  animation-name: quicar;
+  animation-duration: 6s;
+  }    
+
+@keyframes quicar{
+0% {
+  left: 0px;
+  top: 0px;
+}
+12.5%{
+  left: 100px;
+  top: 735px;
+}
+25%{
+  top:100px;
+  left: 200px;
+}
+37.5%{
+  left: 300px;
+  top: 735px;
+
+}
+50%{
+  top:100px;
+  left: 400px;
+}
+62.5%{
+  left:500px;
+  top: 735px;
+}
+75%{
+  top: 100px;
+  left: 600px;
+}
+87.5%{
+  left: 700px;
+  top: 735px;
+}
+100%{
+  top: 100px;
+  left: 800px;
+}
+}
